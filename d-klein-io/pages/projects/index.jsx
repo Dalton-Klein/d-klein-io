@@ -3,9 +3,25 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
 import Link from 'next/link'
+import { useState, useEffect } from 'react'
+import  fetchProjects from '../../services/projectservice'
 
-export default () => {
-  const projects = new Array(15).fill(1).map((e, i) => ({id: i, title: `This is my project ${i}`}))
+const ProjectsPage = () => {
+  const [myProjects, setMyProjects] = useState([]);
+  
+  useEffect( () => {
+    grabProjects();
+  }, [])
+  
+  async function grabProjects () {
+    const result = await fetchProjects();
+    const tempProjects =  result.props
+    //setMyProjects(tempProjects);
+    // yo
+    console.log('DATA:  ', tempProjects);
+  }
+
+  const projects = myProjects
 
   return (
     <div sx={{variant: 'containers.page'}}>
@@ -14,10 +30,10 @@ export default () => {
       <div sx={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap'}}>
         {projects.map(project => (
           <div sx={{width: '33%', p: 2}}>
-            <Link key={project.id} href="/projects/[id]" as={`/projects/${project.id}`}>
+            <Link key={project.title} href="/projects/[title]" as={`/projects/${project.title}`}>
               <a sx={{textDecoration: 'none', cursor: 'pointer'}}>
                 <div sx={{variant: 'containers.card',}}>
-                  <strong>{project.title}</strong>
+                  <strong>{project.type}</strong>
                 </div>
               </a>
             </Link>
@@ -27,3 +43,5 @@ export default () => {
     </div>
   )
 }
+
+export default ProjectsPage

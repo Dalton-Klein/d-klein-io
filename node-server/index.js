@@ -1,9 +1,9 @@
-//dalton Deadmau55
 const express = require('express');
 const cors = require('cors');
 const router = require('./router');
+require('dotenv').config();
 //process.env for heroku
-const port = process.env.PORT || 3001
+const port = process.env.PORT || process.env.LOCALPORT
 const app = express();
 
 app

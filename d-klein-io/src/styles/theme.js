@@ -22,6 +22,6 @@ const theme = {
   }
 }
 
-console.log('Theme info:  ', theme);
+//console.log('Theme info:  ', theme);
 
 export default theme
