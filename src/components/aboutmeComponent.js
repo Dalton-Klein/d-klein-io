@@ -26,9 +26,16 @@ export default function AboutmeComponent(props) {
       <div className={`${styles.aboutmetext}
       ${props.checked == false ? styles.textlight : styles.textdark}`}
       >
-        I studied very hard and got accepted into the best and most advanced coding program
-        that I could find, Codeworks. Even when their US cohort was cancelled due to the virus, I did not
+        I studied hard and got accepted into the best and most advanced coding program
+        that I could find, Codeworks. Even when the Codeworks US cohort was cancelled due to the virus, I did not
         let that stop me, and I joined the EU remote cohort studying from 2AM - 2PM daily. 
+      </div>
+      <div className={`${styles.aboutmetext}
+      ${props.checked == false ? styles.textlight : styles.textdark}`}
+      >
+        The experience, knowledge and network that I have gained from leaving my accounting job and joining Codeworks
+        has been invaluable. Having spent each day the last 5 months out of my comfort zone, I am now convinced that 
+        no new technology can scare me away. 
       </div>
     </div>
   )

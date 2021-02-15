@@ -11,7 +11,7 @@ export default function HeadingComponent(props) {
 
   const toggleTheme = (isDark) => {
     if (isDark) setBannerSrc('/assets/darkwinter.jpg')
-    else setBannerSrc('/assets/palisade2.png')
+    else setBannerSrc('/assets/palisade.png')
   }
 
   return (
@@ -22,7 +22,7 @@ export default function HeadingComponent(props) {
           Dalton Klein
         </div>
         <div className={styles.subTitle}>
-          Full Stack Devloper
+          Full Stack Developer
         </div>
       </div>
     </div>

@@ -1,0 +1,57 @@
+@import './config';
+
+.skillscontainer {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3vh;
+}
+
+.skillsTitle {
+  @extend .title-font;
+  margin-top: 1.5vh;
+}
+
+.skillsbox {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 350px;
+  width: 80%;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+.skillcard {
+  padding: 1vw;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skillcarddark {
+  background-color: $colorGreyPop;
+}
+
+.skillcardlight {
+  background-color: $colorWhitePop;
+}
+
+.skillIcon {
+  height: 10vh;
+  transition: 150ms;
+  margin-bottom: 1vh;
+}
+
+.skillIcon:hover {
+  transform: scale(1.05);
+}
+
+.textlight {
+  color: $colorGreyBg;
+}
+
+.textdark {
+  color: $colorText;
+}

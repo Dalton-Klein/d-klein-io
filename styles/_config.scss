@@ -4,6 +4,7 @@ $colorSecondary: #ffd400;
 $colorGreyPop: #232026;
 $colorGreyPop80: #232026bb;
 $colorWhitePop: #e2dcd2;
+$colorWhitePop80: #e2dcd2c0;
 $colorGreyHover: #464641;
 $colorGreyBg: #1c1c1e;
 $colorText: #F1E9DA;
@@ -26,4 +27,8 @@ $colorShadowDark: rgba(0, 0, 0, 0.65);
   display: flex;
   justify-content:space-between;
   align-items: center;
+}
+
+.title-font {
+  font-size: calc(16px + 2vw);
 }

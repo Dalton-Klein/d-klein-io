@@ -10,7 +10,7 @@
 }
 
 .aboutmetitle {
-  font-size: calc(16px + 2vw);
+  @extend .title-font;
   margin-top: 3vh;
   margin-bottom: 3vh;
 }
@@ -24,6 +24,7 @@
 .aboutmetext {
   @extend .aboutmeheading;
   margin-bottom: 1vh;
+  font-weight: 100;
 }
 
 .textlight {

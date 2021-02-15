@@ -6,6 +6,7 @@ import Switch from "react-switch";
 import HeadingComponent from '../src/components/headingComponent';
 import ProjectTilesComponent from '../src/components/projectTilesComponent';
 import AboutmeComponent from '../src/components/aboutmeComponent'
+import SkillsComponent from '../src/components/skillsComponent';
 
 
 
@@ -55,6 +56,7 @@ export default function Home() {
       <div className={styles.scrollableContent}>
         <AboutmeComponent checked={checked}/>
         <ProjectTilesComponent checked={checked}/>
+        <SkillsComponent checked={checked}/>
       </div>
       <footer className={`${styles.footer}
         ${checked == false ? styles.footerlight : styles.footerdark}`}
