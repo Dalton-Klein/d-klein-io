@@ -1,0 +1,38 @@
+@import './config';
+
+.banner {
+  width: 100%;
+}
+
+.bannerimg {
+  width: 100%;
+  position: block;
+  object-fit: cover;
+  max-height: 40vh;
+}
+
+.bannertext {
+  position: absolute;
+  top: 8vh;
+  left: 5vw;
+  width: 100%;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  font-size: calc(40px + 5vw);
+  font-weight: 800;
+  color: $colorText;
+  margin-bottom: 1vh;
+}
+
+.subTitle {
+  margin-left: .5vw;
+  font-size: calc(16px + 4vw);
+  font-weight: 400;
+}

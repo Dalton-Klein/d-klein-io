@@ -1,0 +1,28 @@
+//Global Variables
+$colorPrimary: #35A7FF;
+$colorSecondary: #ffd400;
+$colorGreyPop: #333333;
+$colorGreyPop80: #333333bb;
+$colorGreyHover: #464641;
+$colorGreyBg: #1c1c1e;
+$colorText: #F1E9DA;
+$colorShadowLight: rgba(48, 48, 48, 0.85);
+$colorShadowDark: rgba(0, 0, 0, 0.65);
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}

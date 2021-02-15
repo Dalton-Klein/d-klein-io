@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import './config';
+
+html,
+body {
+  background-color: $colorGreyBg;
+  color: $colorText;
+  padding: 0;
+  margin: 0;
+  font-family: 'Questrial', sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
