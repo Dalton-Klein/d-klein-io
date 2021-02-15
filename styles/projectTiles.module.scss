@@ -28,20 +28,25 @@
   justify-content: center;
   flex-wrap: wrap;
   min-width: 350px;
-  max-width: 80%;
+  width: 90%;
   margin-top: 3vh;
   margin-bottom: 3vh;
+  overflow: auto;
 }
 
 .card {
-  margin: 1rem;
-  flex-basis: 45%;
-  padding: 1.5vw;
+  width: 45%;
+  min-width: 325px;
+  height: 21vh;
+  min-height: 120px;
+  margin: 1vw;
+  padding: 1vw 2vw;
   text-align: left;
-  text-decoration: none;
   border-radius: 15px;
   transition: 150ms;
   border: 1px solid #ffffff00;
+  display: flex;
+  align-items: center;
 }
 
 .cardflex {
@@ -79,12 +84,20 @@
 
 .projTileIcon {
   height: 10vw;
-  margin-right: 1vw;
+  min-height: 90px;
+  margin-right: 2vw;
+  border-radius: 15px;
 }
 
 .cardinfobox {
-  height: 10vw;
+  height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  h3 {
+    font-size: calc(11px + .75vw);
+  }
+  p {
+    font-size: calc(9px + .5vw);
+  }
 }
