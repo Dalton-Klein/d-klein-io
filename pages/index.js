@@ -21,7 +21,7 @@ export default function Home() {
       ${checked == false ? styles.containerlight : styles.containerdark}`}
     >
       <Head>
-        <title>d-klein-io</title>
+        <title>dklein.io</title>
         <link rel="icon" href="/assets/favicon.png" />
       </Head>
 

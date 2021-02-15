@@ -16,7 +16,7 @@ export default function HeadingComponent(props) {
 
   return (
     <div className={styles.banner}>
-      <img src={bannerSrc} className={styles.bannerimg}/>
+      <img src={bannerSrc} className={styles.bannerimg} alt='website-banner-nature'/>
       <div className={styles.bannertext}>
         <div className={styles.title}>
           Dalton Klein

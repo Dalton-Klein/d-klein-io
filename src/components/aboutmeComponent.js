@@ -4,10 +4,16 @@ import styles from '../../styles/aboutme.module.scss'
 export default function AboutmeComponent(props) {
   return (
     <div className={styles.aboutmebox}>
+      <div className={styles.profileHeading}>
       <div className={`${styles.aboutmetitle}
       ${props.checked == false ? styles.textlight : styles.textdark}`}
       > 
-        Hi, I'm Dalton.
+      Hi, I'm Dalton
+      </div>
+      <img src="/assets/Dalton.png" 
+        alt="profile-photo" 
+        className={styles.profilePhoto}
+      />
       </div>
       <div className={`${styles.aboutmeheading}
       ${props.checked == false ? styles.textlight : styles.textdark}`}
@@ -26,8 +32,7 @@ export default function AboutmeComponent(props) {
       <div className={`${styles.aboutmetext}
       ${props.checked == false ? styles.textlight : styles.textdark}`}
       >
-        I studied hard and got accepted into the best and most advanced coding program
-        that I could find, Codeworks. Even when the Codeworks US cohort was cancelled due to the virus, I did not
+        I studied hard and got accepted into the most immersive coding program that I could find, Codeworks. Even when the Codeworks US cohort was cancelled due to the virus, I did not
         let that stop me, and I joined the EU remote cohort studying from 2AM - 2PM daily. 
       </div>
       <div className={`${styles.aboutmetext}

@@ -9,22 +9,34 @@
   align-items: center;
 }
 
-.aboutmetitle {
-  @extend .title-font;
+.profileHeading {
+  display: flex;
+  align-items: center;
   margin-top: 3vh;
   margin-bottom: 3vh;
 }
 
+.profilePhoto{
+  height: 15vh;
+}
+
+.aboutmetitle {
+  @extend .title-font;
+  margin-right: 3vw;
+}
+
 .aboutmeheading {
   font-size: calc(10px + 1vw);
-  margin-bottom: 4vh;
+  margin-bottom: 2vh;
   max-width: 1300px;
 }
 
 .aboutmetext {
   @extend .aboutmeheading;
+  text-align: left;
   margin-bottom: 1vh;
   font-weight: 100;
+  margin-top: 2vh;
 }
 
 .textlight {

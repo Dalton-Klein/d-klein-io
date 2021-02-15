@@ -11,7 +11,7 @@
 
 .skillsTitle {
   @extend .title-font;
-  margin-top: 1.5vh;
+  margin-top: 3vh;
 }
 
 .skillsbox {
@@ -19,8 +19,9 @@
   justify-content: space-evenly;
   min-width: 350px;
   width: 80%;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 1vh;
+  margin-bottom: 4vh;
+  flex-wrap: wrap;
 }
 
 .skillcard {
@@ -28,6 +29,12 @@
   border-radius: 15px;
   display: flex;
   flex-direction: column;
+  margin-top: 2vh;
+  margin-left: 1vh;
+  margin-right: 1vh;
+  text {
+    font-size: calc(8px + .5vw);
+  }
 }
 
 .skillcarddark {
