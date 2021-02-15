@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/home.module.scss';
+import Link from 'next/link';
 import { useState } from 'react';
 import Switch from "react-switch";
 import HeadingComponent from '../src/components/headingComponent';
@@ -58,10 +59,36 @@ export default function Home() {
       <footer className={`${styles.footer}
         ${checked == false ? styles.footerlight : styles.footerdark}`}
       >
-        <img src={`/assets/socials/fb-${checked}.png`}
-          alt="facebook-link" 
-          className={styles.socialIcon}
-        />
+        <Link href="mailto:klein853@d.umn.edu">
+          <img src={`/assets/socials/em-${checked}.png`}
+            alt="email-link" 
+            className={styles.socialIcon}
+          />
+        </Link>
+        <Link href="https://github.com/Dalton-Klein">
+          <img src={`/assets/socials/li-${checked}.png`}
+            alt="linkedin-link" 
+            className={styles.socialIcon}
+          />
+        </Link>
+        <Link href="https://www.linkedin.com/in/dalton-klein/">
+          <img src={`/assets/socials/gh-${checked}.png`}
+            alt="github-link" 
+            className={styles.socialIcon}
+          />
+        </Link>
+        <Link href="https://www.youtube.com/channel/UCSDzClh9I1FqlCxA_5IH0_g">
+          <img src={`/assets/socials/yt-${checked}.png`}
+            alt="youtube-link" 
+            className={styles.socialIcon}
+          />
+        </Link>
+        <Link href="https://discord.gg/haUk6pD">
+          <img src={`/assets/socials/dc-${checked}.png`}
+            alt="discord-link" 
+            className={styles.socialIcon}
+          />
+        </Link>
       </footer>
     </div>
   )
