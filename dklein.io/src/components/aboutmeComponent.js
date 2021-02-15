@@ -19,7 +19,7 @@ export default function AboutmeComponent(props) {
       >
         I am a full stack developer living in Minneapolis, MN. In a past life, I obtained a finance 
         degree from the U of M Duluth and worked in corporate accounting. When Covid-19 struck, I knew 
-        it was time to take my passion for coding more seriously and turn it into a career.  
+        it was time to take my passion for coding to the next level.   
       </div>
     </div>
   )
