@@ -36,11 +36,12 @@
   margin-top: .4vh;
 }
 
+.scrollableContent {
+  overflow: auto;
+}
+
 .footer {
-  position:absolute;
-  left:0;
-  bottom:0;
-  right:0;
+  background-color: $colorGreyBg;
   height: 6vh;
   display: flex;
   justify-content: center;

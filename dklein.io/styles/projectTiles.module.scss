@@ -10,7 +10,14 @@
 .projectsTitle {
   font-size: calc(15px + 1.5vw);
   margin-top: 1.5vh;
-  color: $colorPrimary;
+}
+
+.projectsTitledark {
+  color: $colorText;
+}
+
+.projectsTitlelight {
+  color: $colorGreyBg;
 }
 
 .grid {
@@ -18,7 +25,8 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  min-width: 350px;
+  max-width: 80%;
   margin-top: 1.5vh;
 }
 
@@ -29,24 +37,30 @@
   text-align: left;
   text-decoration: none;
   border-radius: 15px;
-  transition: color 0.15s ease, border-color 0.15s ease;
+  transition: 150ms;
+  border: 1px solid #ffffff00;
+}
+
+.cardflex {
+  @extend .flex-center;
 }
 
 .carddark {
-  border: 1px solid $colorText;
   color: $colorText;
+  background-color: $colorGreyPop;
 }
 
 .cardlight {
-  border: 1px solid $colorGreyBg;
   color: $colorGreyBg;
+  background-color: $colorWhitePop;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
   color: $colorPrimary;
-  border-color: $colorPrimary;
+  border: 1px solid $colorPrimary;
+  transform: scale(1.05);
 }
 
 .card h3 {
@@ -58,4 +72,9 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+}
+
+.projTileIcon {
+  width: 10vw;
+  margin-right: 1vw;
 }

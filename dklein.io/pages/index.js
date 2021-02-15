@@ -1,9 +1,10 @@
 import Head from 'next/head';
 import styles from '../styles/home.module.scss';
-import HeadingComponent from '../src/components/headingComponent';
-import ProjectTilesComponent from '../src/components/projectTilesComponent';
 import { useState } from 'react';
 import Switch from "react-switch";
+import HeadingComponent from '../src/components/headingComponent';
+import ProjectTilesComponent from '../src/components/projectTilesComponent';
+import AboutmeComponent from '../src/components/aboutmeComponent'
 
 
 
@@ -50,7 +51,10 @@ export default function Home() {
           />
         </label>
       </div>
-      <ProjectTilesComponent checked={checked}/>
+      <div className={styles.scrollableContent}>
+        <AboutmeComponent checked={checked}/>
+        <ProjectTilesComponent checked={checked}/>
+      </div>
       <footer className={`${styles.footer}
         ${checked == false ? styles.footerlight : styles.footerdark}`}
       >
