@@ -8,12 +8,13 @@
   width: 100%;
   position: block;
   object-fit: cover;
+  height: 36vh;
   max-height: 40vh;
 }
 
 .bannertext {
   position: absolute;
-  top: 8vh;
+  top: 0vh;
   left: 5vw;
   width: 100%;
 }
@@ -28,11 +29,12 @@
   font-size: calc(40px + 5vw);
   font-weight: 600;
   color: $colorText;
-  margin-bottom: 1vh;
+  margin-bottom: 0vh;
 }
 
 .subTitle {
   margin-left: .5vw;
   font-size: calc(16px + 3.25vw);
   font-weight: 800;
+  margin-top: 1vh;
 }

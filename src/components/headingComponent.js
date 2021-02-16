@@ -18,12 +18,12 @@ export default function HeadingComponent(props) {
     <div className={styles.banner}>
       <img src={bannerSrc} className={styles.bannerimg} alt='website-banner-nature'/>
       <div className={styles.bannertext}>
-        <div className={styles.title}>
+        <h1 className={styles.title}>
           Dalton Klein
-        </div>
-        <div className={styles.subTitle}>
+        </h1>
+        <h2 className={styles.subTitle}>
           Full Stack Developer
-        </div>
+        </h2>
       </div>
     </div>
   )

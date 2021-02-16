@@ -45,6 +45,39 @@ export default function SkillsComponent(props) {
           >CSS</text>
         </div>
         <div className={`${styles.skillcard}
+          ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
+        >
+          <img src="/assets/skills/aws.png" 
+          alt="awsEC2-img" 
+          className={styles.skillIcon}
+          />
+          <text className={`${props.checked == false ? 
+            styles.textlight : styles.textdark}`}
+          >AWS EC2</text>
+        </div>
+        <div className={`${styles.skillcard}
+        ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
+        >
+          <img src="/assets/skills/ue4.png" 
+          alt="ue4-img" 
+          className={styles.skillIcon}
+          />
+          <text className={`${props.checked == false ? 
+            styles.textlight : styles.textdark}`}
+          >Unreal Engine</text>
+        </div>
+        <div className={`${styles.skillcard}
+        ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
+        >
+          <img src="/assets/skills/react.png" 
+          alt="react-img" 
+          className={styles.skillIcon}
+          />
+          <text className={`${props.checked == false ? 
+            styles.textlight : styles.textdark}`}
+          >React</text>
+        </div>
+        <div className={`${styles.skillcard}
         ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
           <img src="/assets/skills/Express.png" 
@@ -66,17 +99,7 @@ export default function SkillsComponent(props) {
             styles.textlight : styles.textdark}`}
           >Typescript</text>
         </div>
-        <div className={`${styles.skillcard}
-        ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
-        >
-          <img src="/assets/skills/react.png" 
-          alt="react-img" 
-          className={styles.skillIcon}
-          />
-          <text className={`${props.checked == false ? 
-            styles.textlight : styles.textdark}`}
-          >React</text>
-        </div>
+        
         <div className={`${styles.skillcard}
         ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
@@ -98,17 +121,6 @@ export default function SkillsComponent(props) {
           <text className={`${props.checked == false ? 
             styles.textlight : styles.textdark}`}
           >PostgresSQL</text>
-        </div>
-        <div className={`${styles.skillcard}
-        ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
-        >
-          <img src="/assets/skills/ue4.png" 
-          alt="ue4-img" 
-          className={styles.skillIcon}
-          />
-          <text className={`${props.checked == false ? 
-            styles.textlight : styles.textdark}`}
-          >Unreal Engine</text>
         </div>
         <div className={`${styles.skillcard}
         ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}

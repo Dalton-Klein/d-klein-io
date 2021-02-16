@@ -7,7 +7,7 @@ import HeadingComponent from '../src/components/headingComponent';
 import ProjectTilesComponent from '../src/components/projectTilesComponent';
 import AboutmeComponent from '../src/components/aboutmeComponent'
 import SkillsComponent from '../src/components/skillsComponent';
-
+import InterestsComponent from '../src/components/interestsComponent';
 
 
 export default function Home() {
@@ -57,6 +57,7 @@ export default function Home() {
         <AboutmeComponent checked={checked}/>
         <ProjectTilesComponent checked={checked}/>
         <SkillsComponent checked={checked}/>
+        <InterestsComponent checked={checked}/>
       </div>
       <footer className={`${styles.footer}
         ${checked == false ? styles.footerlight : styles.footerdark}`}
