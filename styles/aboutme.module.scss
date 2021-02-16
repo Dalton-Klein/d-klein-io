@@ -33,6 +33,11 @@
   margin-bottom: 3vh;
 }
 
+.linkText {
+  color: $colorPrimary;
+  display: inline;
+  cursor: pointer;
+}
 .aboutmeheading {
   font-size: calc(10px + 1vw);
   margin-bottom: 2vh;

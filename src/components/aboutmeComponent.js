@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import styles from '../../styles/aboutme.module.scss'
 
@@ -18,7 +19,12 @@ export default function AboutmeComponent(props) {
       <div className={`${styles.aboutmeheading}
       ${props.checked == false ? styles.textlight : styles.textdark}`}
       >
-      😊Welcome to my personal website, where I host my latest development endeavors😊
+        😊Welcome to my personal website, where I host my latest development endeavors😊
+        <br/> <br/> Please feel free to reach to me through 
+        <Link href="https://www.linkedin.com/in/dalton-klein/"> 
+          <div className={styles.linkText}> LinkedIn </div>
+        </Link> 
+        or one of the socials at the bottom of the page. 
       </div>
       <div className={`${styles.storytitle}
       ${props.checked == false ? styles.textlight : styles.textdark}`}
