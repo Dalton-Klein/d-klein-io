@@ -27,6 +27,12 @@
   margin-right: 3vw;
 }
 
+.storytitle {
+  @extend .title-font;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+}
+
 .aboutmeheading {
   font-size: calc(10px + 1vw);
   margin-bottom: 2vh;
@@ -39,6 +45,7 @@
   margin-bottom: 1vh;
   font-weight: 100;
   margin-top: 2vh;
+  line-height: 1.2;
 }
 
 .textlight {
