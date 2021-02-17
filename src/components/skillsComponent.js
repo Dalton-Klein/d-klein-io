@@ -202,6 +202,17 @@ export default function SkillsComponent(props) {
         <div className={`${styles.skillcard}
           ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
+          <img src="/assets/skills/php.png" 
+          alt="php-img" 
+          className={styles.skillIcon}
+          />
+          <text className={`${props.checked == false ? 
+            styles.textlight : styles.textdark}`}
+          >php</text>
+        </div>
+        <div className={`${styles.skillcard}
+          ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
+        >
           <img src="/assets/skills/heroku.png" 
           alt="heroku-img" 
           className={styles.skillIcon}

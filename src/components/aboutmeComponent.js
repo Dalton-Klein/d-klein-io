@@ -44,7 +44,7 @@ export default function AboutmeComponent(props) {
         uninstall Runescape but to install Unreal Engine. I started to learn Blueprint programming and C++ heavily
         during the next few years. Eventually, I needed to expand my horizons to accomplish full scale multiplayer games.
         I worked with a more experienced friend to get started in PHP and SQL to start building out backend and authentication systems. 
-        Not long after, I met a friend that swore by the power of JavaScript, so I started learning a whole new language. 
+        Not long after, I met a friend that swore by the power of JavaScript, so I started learning a third language. 
       </div>
         While I was learning and exploring the programming world, I also obtained a finance degree from the U of M Duluth 
         and began working in corporate accounting. This was going great until covid-19 struck, and I knew it was time to take my 
