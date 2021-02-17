@@ -8,6 +8,7 @@ Since it is super static, and focused on design and responsiveness, I had a lot 
 ### Fully Responsive UI
 <img src="./screenshots/mainMobile.PNG" width="35%" />
 <img src="./screenshots/midPC.PNG" width="80%" />
+
 ### View Banner Heading & Toggle Light Dark Themes
 
 <img src="./screenshots/lightMobile.PNG" width="35%" />
@@ -21,6 +22,7 @@ Since it is super static, and focused on design and responsiveness, I had a lot 
 <img src="./screenshots/projectMobile.PNG" width="35%" />
 
 ### View Skills
+
 Users have multiple sign in and sign up options. The key for a casual
 game like this is to make it as low friction as possbile to get 
 people playing.
@@ -32,6 +34,7 @@ people playing.
 <img src="./screenshots/interestsMobile.PNG" width="35%" />
 
 ## Getting Started
+
 - Fork the repository and clone it on your local machine
 - Install the dependencies by running `npm i` in the root directory
 - Start the next development server with command 
