@@ -23,9 +23,7 @@ Since it is super static, and focused on design and responsiveness, I had a lot 
 
 ### View Skills
 
-Users have multiple sign in and sign up options. The key for a casual
-game like this is to make it as low friction as possbile to get 
-people playing.
+- Skills are broken into small cards with hover effects
 
 <img src="./screenshots/skillsMobile.PNG" width="35%" />
 
