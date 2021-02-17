@@ -21,6 +21,11 @@ export default function Home() {
       ${checked == false ? styles.containerlight : styles.containerdark}`}
     >
       <Head>
+        <meta charSet="utf-8" />
+        <meta name="description" content="Software portfolio page for Dalton Klein" />
+        <meta property="og:title" content="dklein.io" key="ogtitle" />
+        <meta property="og:image" content="/assets/dkleinioEMBEDImage.png" key="ogimage" />
++       <meta property="og:description" content="Software portfolio page for Dalton Klein" key="ogdesc" />
         <title>dklein.io</title>
         <link rel="icon" href="/assets/favicon.png" />
       </Head>
