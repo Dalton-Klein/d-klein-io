@@ -55,7 +55,10 @@ export default function AboutmeComponent(props) {
       <div className={`${styles.aboutmetext}
       ${props.checked == false ? styles.textlight : styles.textdark}`}
       >
-        I studied hard and got accepted into the most immersive coding program that I could find, Codeworks. Even when the Codeworks US cohort was cancelled due to the virus, I did not
+        I studied hard and got accepted into the most immersive coding program that I could find, 
+        <Link href="https://codeworks.me/"> 
+          <div className={styles.aboutmetextLink}> Codeworks</div>
+        </Link>. Even when the Codeworks US cohort was cancelled due to the virus, I did not
         let that stop me, and I joined the EU remote cohort studying from 2AM - 2PM daily. 
       </div>
       <div className={`${styles.aboutmetext}

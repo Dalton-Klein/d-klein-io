@@ -53,6 +53,13 @@
   line-height: 1.2;
 }
 
+.aboutmetextLink {
+  @extend .aboutmetext;
+  color: $colorPrimary;
+  display: inline;
+  cursor: pointer;
+}
+
 .textlight {
   color: $colorGreyBg;
 }
