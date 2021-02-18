@@ -8,7 +8,7 @@ export default function ProjectTilesComponent(props) {
   return (
     <div className={styles.projecttilescomp}>
       <ParallaxProvider className={styles.projectTilesContainer}>
-        <Parallax y={[-150, 150]} className={styles.cardscroll}className={styles.projectsTitle}>
+        <Parallax y={[-150, 150]} className={styles.cardscroll} className={styles.projectsTitle}>
           Project Portfolio
         </Parallax>
         <div className={styles.grid}>
