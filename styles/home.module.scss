@@ -1,5 +1,8 @@
 @import './config';
 
+.parrallaxcontainer {
+  min-width: 120%;
+}
 .container {
   min-height: 100vh;
   width: 100vw;
@@ -12,12 +15,13 @@
 }
 
 .themebox {
+  position: absolute;
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  padding-right: 2vw;
-  margin-top: -8vh;
-  margin-bottom: 5vh;
+  padding-right: 5vw;
+  margin-top: 90vh;
+  z-index: 5;
 }
 
 .switchbox {
@@ -25,21 +29,34 @@
   justify-content: "center";
   align-items: "center";
   height: "100%";
-  font-size: 15;
   color: "orange";
   padding-right: 2
 }
 
 .themeIcon {
-  height: 30px;
-  width: 32px;
-  padding-left: 3px;
+  height: 22px;
+  width: 24px;
+  margin-left: 6px;
   margin-top: 4px;
 }
 
 .scrollableContent {
   overflow: auto;
+  z-index: 1;
 }
+
+.bannercomp {
+  z-index: 2;
+}
+.aboutmecomp{
+  z-index: 20;
+  position: absolute;
+}
+.skillscomp{
+  z-index: 30;
+  position: absolute;
+}
+
 
 .footer {
   background-color: $colorGreyBg;

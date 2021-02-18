@@ -1,52 +1,59 @@
 @import './config';
 
+.projecttilescomp{
+  position: relative;
+  min-height: 100vh;
+  background-image: url('/assets/background/minneapolis.jpg');
+}
+
 .projectTilesContainer {
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 2vh;
-  background-image: url('/assets/stonearchwinter.jpg');
 }
 
 .projectsTitle {
   @extend .title-font;
-  margin-top: 3vh;
-}
-
-.projectsTitledark {
+  padding-top: 3vh;
+  text-align: center;
+  z-index: 10;
   color: $colorText;
 }
 
-.projectsTitlelight {
-  color: $colorGreyBg;
-}
-
 .grid {
+  z-index: 10;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  min-width: 350px;
-  width: 90%;
+  min-width: 300px;
+  margin-left: 2.5vw;
+  width: 95vw;
   margin-top: 3vh;
   margin-bottom: 3vh;
   overflow: auto;
 }
 
-.card {
+.cardscroll {
   width: 45%;
-  min-width: 325px;
+  min-width: 275px;
   height: 21vh;
   min-height: 120px;
-  margin: 1vw;
-  padding: 1vw 2vw;
   text-align: left;
-  border-radius: 15px;
-  transition: 150ms;
-  border: 1px solid #ffffff00;
+  position: relative;
+  margin: 5vh 1vw;
+}
+
+.card {
+  min-width: 100%;
   display: flex;
   align-items: center;
+  padding: 1vh 2vw;
+  transition: 150ms;
+  border: 1px solid #ffffff00;
+  border-radius: 15px;
 }
 
 .cardflex {
@@ -83,8 +90,8 @@
 }
 
 .projTileIcon {
-  height: 10vw;
-  min-height: 90px;
+  height: 8.5vw;
+  min-height: 80px;
   margin-right: 2vw;
   border-radius: 15px;
 }

@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import styles from '../styles/home.module.scss';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Switch from "react-switch";
-import HeadingComponent from '../src/components/headingComponent';
+import BannerComponent from '../src/components/bannerComponent';
 import ProjectTilesComponent from '../src/components/projectTilesComponent';
 import AboutmeComponent from '../src/components/aboutmeComponent'
 import SkillsComponent from '../src/components/skillsComponent';
@@ -11,7 +11,8 @@ import InterestsComponent from '../src/components/interestsComponent';
 
 
 export default function Home() {
-  const [checked, setChecked] = useState(true);
+  const [checked, setChecked] = useState(false);
+
   const handleChange = nextChecked => {
     setChecked(nextChecked);
   };
@@ -30,15 +31,14 @@ export default function Home() {
         <link rel="icon" href="/assets/favicon.png" />
       </Head>
 
-      <HeadingComponent checked={checked}/>
       <div className={styles.themebox}>
         <label htmlFor="small-radius-switch">
           <Switch
             checked={checked} onChange={handleChange}
-            handleDiameter={28} offColor="#ffd400"
+            handleDiameter={20} offColor="#ffd400"
             onColor="#35A7FF" offHandleColor="#35A7FF"
-            onHandleColor="#ffd400" height={40}
-            width={70} borderRadius={6}
+            onHandleColor="#ffd400" height={30}
+            width={60} borderRadius={6}
             uncheckedIcon={
               <div className={styles.switchbox}>
                 <img src="/assets/theme/dark.png" 
@@ -58,10 +58,12 @@ export default function Home() {
           />
         </label>
       </div>
+      
       <div className={styles.scrollableContent}>
-        <AboutmeComponent checked={checked}/>
+        <BannerComponent checked={checked} className={styles.bannercomp}/>
+        <AboutmeComponent checked={checked} className={styles.aboutmecomp}/>
         <ProjectTilesComponent checked={checked}/>
-        <SkillsComponent checked={checked}/>
+        <SkillsComponent checked={checked} className={styles.skillscomp}/>
         <InterestsComponent checked={checked}/>
       </div>
       <footer className={`${styles.footer}
