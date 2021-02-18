@@ -15,7 +15,7 @@ export default function Home() {
 
   useEffect (() => {
     ReactGA.initialize('UA-164919025-2');
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.pageview('/app');
   }, []);
 
   const handleChange = nextChecked => {
