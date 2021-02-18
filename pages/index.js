@@ -9,12 +9,12 @@ import AboutmeComponent from '../src/components/aboutmeComponent'
 import SkillsComponent from '../src/components/skillsComponent';
 import InterestsComponent from '../src/components/interestsComponent';
 import ReactGA from 'react-ga';
+ReactGA.initialize('G-D56DZPQDQB');
 
 export default function Home() {
   const [checked, setChecked] = useState(false);
 
   useEffect (() => {
-    ReactGA.initialize('G-PYBXV32FZX');
     ReactGA.pageview('/app');
   }, []);
 
