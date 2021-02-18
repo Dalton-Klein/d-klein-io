@@ -40,7 +40,7 @@
   width: 45%;
   min-width: 275px;
   height: 21vh;
-  min-height: 120px;
+  min-height: 130px;
   text-align: left;
   position: relative;
   margin: 5vh 1vw;
@@ -48,6 +48,7 @@
 
 .card {
   min-width: 100%;
+  min-height: 130px;
   display: flex;
   align-items: center;
   padding: 1vh 2vw;
