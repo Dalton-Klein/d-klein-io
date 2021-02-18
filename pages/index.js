@@ -15,7 +15,7 @@ export default function Home() {
 
   useEffect (() => {
     ReactGA.initialize('G-PYBXV32FZX');
-    ReactGA.pageview('/');
+    ReactGA.pageview('/app');
   }, []);
 
   const handleChange = nextChecked => {
