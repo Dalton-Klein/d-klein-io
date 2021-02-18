@@ -46,7 +46,7 @@ export default function Home() {
             width={60} borderRadius={6}
             uncheckedIcon={
               <div className={styles.switchbox}>
-                <img src="/assets/theme/dark.png" 
+                <img src="/assets/theme/dark.webp" 
                   alt="facebook-link" 
                   className={styles.themeIcon}
                 />
@@ -54,7 +54,7 @@ export default function Home() {
             }
             checkedIcon={
               <div className={styles.switchbox}>
-                <img src="/assets/theme/sun.png" 
+                <img src="/assets/theme/sun.webp" 
                   alt="facebook-link" 
                   className={styles.themeIcon}
                 />
@@ -75,31 +75,31 @@ export default function Home() {
         ${checked == false ? styles.footerlight : styles.footerdark}`}
       >
         <Link href="mailto:klein853@d.umn.edu">
-          <img src={`/assets/socials/em-${checked}.png`}
+          <img src={`/assets/socials/em-${checked}.webp`}
             alt="email-link" 
             className={styles.socialIcon}
           />
         </Link>
         <Link href="https://github.com/Dalton-Klein">
-          <img src={`/assets/socials/li-${checked}.png`}
+          <img src={`/assets/socials/li-${checked}.webp`}
             alt="linkedin-link" 
             className={styles.socialIcon}
           />
         </Link>
         <Link href="https://www.linkedin.com/in/dalton-klein/">
-          <img src={`/assets/socials/gh-${checked}.png`}
+          <img src={`/assets/socials/gh-${checked}.webp`}
             alt="github-link" 
             className={styles.socialIcon}
           />
         </Link>
         <Link href="https://www.youtube.com/channel/UCSDzClh9I1FqlCxA_5IH0_g">
-          <img src={`/assets/socials/yt-${checked}.png`}
+          <img src={`/assets/socials/yt-${checked}.webp`}
             alt="youtube-link" 
             className={styles.socialIcon}
           />
         </Link>
         <Link href="https://discord.gg/haUk6pD">
-          <img src={`/assets/socials/dc-${checked}.png`}
+          <img src={`/assets/socials/dc-${checked}.webp`}
             alt="discord-link" 
             className={styles.socialIcon}
           />

@@ -14,7 +14,7 @@ export default function SkillsComponent(props) {
         <div className={`${styles.skillcard}
         ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/skills/Javascript.png" 
+          <img src="/assets/skills/Javascript.webp" 
           alt="javascript-img" 
           className={styles.skillIcon}
           />
@@ -25,7 +25,7 @@ export default function SkillsComponent(props) {
         <div className={`${styles.skillcard}
         ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/skills/html5.png" 
+          <img src="/assets/skills/html5.webp" 
           alt="html-img" 
           className={styles.skillIcon}
           />
@@ -36,7 +36,7 @@ export default function SkillsComponent(props) {
         <div className={`${styles.skillcard}
         ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/skills/css3.png" 
+          <img src="/assets/skills/css3.webp" 
           alt="css-img" 
           className={styles.skillIcon}
           />
@@ -47,7 +47,7 @@ export default function SkillsComponent(props) {
         <div className={`${styles.skillcard}
           ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/skills/aws.png" 
+          <img src="/assets/skills/aws.webp" 
           alt="awsEC2-img" 
           className={styles.skillIcon}
           />
@@ -58,7 +58,7 @@ export default function SkillsComponent(props) {
         <div className={`${styles.skillcard}
         ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/skills/ue4.png" 
+          <img src="/assets/skills/ue4.webp" 
           alt="ue4-img" 
           className={styles.skillIcon}
           />
@@ -69,7 +69,7 @@ export default function SkillsComponent(props) {
         <div className={`${styles.skillcard}
         ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/skills/react.png" 
+          <img src="/assets/skills/react.webp" 
           alt="react-img" 
           className={styles.skillIcon}
           />
@@ -80,7 +80,7 @@ export default function SkillsComponent(props) {
         <div className={`${styles.skillcard}
         ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/skills/Express.png" 
+          <img src="/assets/skills/Express.webp" 
           alt="Express-img" 
           className={styles.skillIcon}
           />
@@ -91,7 +91,7 @@ export default function SkillsComponent(props) {
         <div className={`${styles.skillcard}
         ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/skills/typescript.png" 
+          <img src="/assets/skills/typescript.webp" 
           alt="typescript-img" 
           className={styles.skillIcon}
           />
@@ -103,7 +103,7 @@ export default function SkillsComponent(props) {
         <div className={`${styles.skillcard}
         ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/skills/nextjs.png" 
+          <img src="/assets/skills/nextjs.webp" 
           alt="nextjs-img" 
           className={styles.skillIcon}
           />
@@ -114,7 +114,7 @@ export default function SkillsComponent(props) {
         <div className={`${styles.skillcard}
         ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/skills/postgres.png" 
+          <img src="/assets/skills/postgres.webp" 
           alt="postgres-img" 
           className={styles.skillIcon}
           />
@@ -125,7 +125,7 @@ export default function SkillsComponent(props) {
         <div className={`${styles.skillcard}
         ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/skills/ps.png" 
+          <img src="/assets/skills/ps.webp" 
           alt="phtoshop-img" 
           className={styles.skillIcon}
           />
@@ -136,7 +136,7 @@ export default function SkillsComponent(props) {
         <div className={`${styles.skillcard}
         ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/skills/mongodb.png" 
+          <img src="/assets/skills/mongodb.webp" 
           alt="mongodb-img" 
           className={styles.skillIcon}
           />
@@ -147,7 +147,7 @@ export default function SkillsComponent(props) {
         <div className={`${styles.skillcard}
         ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/skills/git.png" 
+          <img src="/assets/skills/git.webp" 
           alt="git-img" 
           className={styles.skillIcon}
           />
@@ -158,7 +158,7 @@ export default function SkillsComponent(props) {
         <div className={`${styles.skillcard}
         ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/skills/koa.jpg" 
+          <img src="/assets/skills/koa.webp" 
           alt="koa-img" 
           className={styles.skillIcon}
           />
@@ -169,7 +169,7 @@ export default function SkillsComponent(props) {
         <div className={`${styles.skillcard}
           ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/skills/mocha.png" 
+          <img src="/assets/skills/mocha.webp" 
           alt="mocha-img" 
           className={styles.skillIcon}
           />
@@ -180,7 +180,7 @@ export default function SkillsComponent(props) {
         <div className={`${styles.skillcard}
           ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/skills/angular.svg" 
+          <img src="/assets/skills/angular.webp" 
           alt="angular-img" 
           className={styles.skillIcon}
           />
@@ -191,7 +191,7 @@ export default function SkillsComponent(props) {
         <div className={`${styles.skillcard}
           ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/skills/sass.png" 
+          <img src="/assets/skills/sass.webp" 
           alt="sass-img" 
           className={styles.skillIcon}
           />
@@ -202,7 +202,7 @@ export default function SkillsComponent(props) {
         <div className={`${styles.skillcard}
           ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/skills/php.png" 
+          <img src="/assets/skills/php.webp" 
           alt="php-img" 
           className={styles.skillIcon}
           />
@@ -213,7 +213,7 @@ export default function SkillsComponent(props) {
         <div className={`${styles.skillcard}
           ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/skills/heroku.png" 
+          <img src="/assets/skills/heroku.webp" 
           alt="heroku-img" 
           className={styles.skillIcon}
           />

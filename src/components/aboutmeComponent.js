@@ -11,7 +11,7 @@ export default function AboutmeComponent(props) {
       > 
       Hi, I'm Dalton
       </div>
-      <img src="/assets/Dalton.png" 
+      <img src="/assets/Dalton.webp" 
         alt="profile-photo" 
         className={styles.profilePhoto}
       />

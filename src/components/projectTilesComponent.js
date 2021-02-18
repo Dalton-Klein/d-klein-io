@@ -18,7 +18,7 @@ export default function ProjectTilesComponent(props) {
               ${props.checked == false ? styles.cardlight : styles.carddark}`}
             >
               <div className={styles.cardflex}>
-                <img src="/assets/projectscreenshots/trademon.png" 
+                <img src="/assets/projectscreenshots/trademon.webp" 
                   alt="facebook-link" 
                   className={styles.projTileIcon}
                 />
@@ -35,7 +35,7 @@ export default function ProjectTilesComponent(props) {
               ${props.checked == false ? styles.cardlight : styles.carddark}`}
             > 
               <div className={styles.cardflex}>
-                <img src="/assets/projectscreenshots/discordbot.png" 
+                <img src="/assets/projectscreenshots/discordbot.webp" 
                   alt="discord-gamerbot-link" 
                   className={styles.projTileIcon}
                 />
@@ -54,7 +54,7 @@ export default function ProjectTilesComponent(props) {
               ${props.checked == false ? styles.cardlight : styles.carddark}`}
             >
               <div className={styles.cardflex}>
-                <img src="/assets/projectscreenshots/chessleague.png" 
+                <img src="/assets/projectscreenshots/chessleague.webp" 
                   alt="chessleague-link" 
                   className={styles.projTileIcon}
                 />
@@ -73,7 +73,7 @@ export default function ProjectTilesComponent(props) {
               ${props.checked == false ? styles.cardlight : styles.carddark}`}
             >
               <div className={styles.cardflex}>
-                <img src="/assets/projectscreenshots/bloodland.png" 
+                <img src="/assets/projectscreenshots/bloodland.webp" 
                   alt="bloodland-link" 
                   className={styles.projTileIcon}
                 />
@@ -93,7 +93,7 @@ export default function ProjectTilesComponent(props) {
               ${props.checked == false ? styles.cardlight : styles.carddark}`}
             >
               <div className={styles.cardflex}>
-                <img src="/assets/projectscreenshots/mntile.jpg" 
+                <img src="/assets/projectscreenshots/mntile.webp" 
                   alt="dklein.io-github-link" 
                   className={styles.projTileIcon}
                 />

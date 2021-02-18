@@ -15,7 +15,7 @@ export default function InterestsComponent(props) {
         <div className={`${styles.skillcard}
           ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/interests/gaming.png" 
+          <img src="/assets/interests/gaming.webp" 
           alt="gaming-img" 
           className={styles.skillIcon}
           />
@@ -26,7 +26,7 @@ export default function InterestsComponent(props) {
         <div className={`${styles.skillcard}
         ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/interests/coffee.png" 
+          <img src="/assets/interests/coffee.webp" 
           alt="coffee-img" 
           className={styles.skillIcon}
           />
@@ -37,7 +37,7 @@ export default function InterestsComponent(props) {
         <div className={`${styles.skillcard}
         ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/interests/skiing.png" 
+          <img src="/assets/interests/skiing.webp" 
           alt="skiing-img" 
           className={styles.skillIcon}
           />
@@ -48,7 +48,7 @@ export default function InterestsComponent(props) {
         <div className={`${styles.skillcard}
         ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/interests/weight.png" 
+          <img src="/assets/interests/weight.webp" 
           alt="weight-img" 
           className={styles.skillIcon}
           />
@@ -59,7 +59,7 @@ export default function InterestsComponent(props) {
         <div className={`${styles.skillcard}
         ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/interests/football.png" 
+          <img src="/assets/interests/football.webp" 
           alt="football-img" 
           className={styles.skillIcon}
           />
@@ -70,7 +70,7 @@ export default function InterestsComponent(props) {
         <div className={`${styles.skillcard}
         ${props.checked == false ? styles.skillcardlight : styles.skillcarddark}`}
         >
-          <img src="/assets/interests/traveling.png" 
+          <img src="/assets/interests/traveling.webp" 
           alt="traveling-img" 
           className={styles.skillIcon}
           />
