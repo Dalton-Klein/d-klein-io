@@ -27,15 +27,16 @@ export default function BannerComponent(props) {
       <img src={bannerSrc} className={styles.bannerimg} 
         alt='website-banner-nature-img'
       />
-      <div className={styles.bannertext}
-        style={{ transform: `translateY(${-offsetY * .5}px)` }}
-      >
-        <h1 className={styles.title}>
+      <div className={styles.bannertext}>
+        <h1 className={styles.title} style={{ transform: `translateY(${-offsetY * .5}px)` }}>
           Dalton Klein
         </h1>
-        <h2 className={styles.subTitle}>
+        <h2 className={styles.subTitle} style={{ transform: `translateY(${-offsetY * .5}px)` }}>
           Full Stack Developer
         </h2>
+      </div>
+      <div className={styles.scrollimgbox} style={{ transform: `translateY(${-offsetY * .7}px)` }}>
+        <img src={'/assets/scrollicon.png'} className={styles.scrollimg}/>
       </div>
     </div>
   )
