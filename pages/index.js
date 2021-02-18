@@ -14,7 +14,7 @@ export default function Home() {
   const [checked, setChecked] = useState(false);
 
   useEffect (() => {
-    ReactGA.initialize('G-D56DZPQDQB');
+    ReactGA.initialize('UA-164919025-2');
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
