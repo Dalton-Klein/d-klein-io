@@ -8,10 +8,15 @@ import ProjectTilesComponent from '../src/components/projectTilesComponent';
 import AboutmeComponent from '../src/components/aboutmeComponent'
 import SkillsComponent from '../src/components/skillsComponent';
 import InterestsComponent from '../src/components/interestsComponent';
-
+import ReactGA from 'react-ga';
 
 export default function Home() {
   const [checked, setChecked] = useState(false);
+
+  useEffect (() => {
+    ReactGA.initialize('G-PYBXV32FZX');
+    ReactGA.pageview('/');
+  }, []);
 
   const handleChange = nextChecked => {
     setChecked(nextChecked);
@@ -26,7 +31,7 @@ export default function Home() {
         <meta name="description" content="Software portfolio page for Dalton Klein" />
         <meta property="og:title" content="dklein.io" key="ogtitle" />
         <meta property="og:image" content="/assets/dkleinioEMBEDImage.png" key="ogimage" />
-+       <meta property="og:description" content="Software portfolio page for Dalton Klein" key="ogdesc" />
+        <meta property="og:description" content="Software portfolio page for Dalton Klein" key="ogdesc" />
         <title>dklein.io</title>
         <link rel="icon" href="/assets/favicon.png" />
       </Head>
